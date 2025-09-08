@@ -40,4 +40,9 @@ aria2c -x16 -s16 -d /workspace/models/loras -o wan2_2_14b_i2v_sigma_000002100_lo
 # trigger words:
 # Subject is doing sigma face expression
 
+# CheekPinch Pals LORA V1.0
+aria2c -x16 -s16 -d /workspace/models/loras -o cheekpinch_pals_v1.safetensors --continue=true "https://civitai.green/api/download/models/2159837?type=Model&format=SafeTensor&token=${token}"
+# trigger words:
+# HUPONNL，画面里女人的脸颊被双手手指轻柔拉扯，她的面部表情随动作从平静逐步变为嘟嘟嘴，噘嘴或者微笑等不同状态，展现出趣味互动效果。
+
 ```
