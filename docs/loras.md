@@ -47,4 +47,18 @@ aria2c -x16 -s16 -d /workspace/models/loras -o wan2_2_14b_i2v_sigma_000002100_hi
 # trigger words:
 # ... doing sigma face expression
 
+# WAN i2v orgasm
+aria2c -x16 -s16 -d /workspace/models/loras -o wan2.2_i2v_orgasm_high_14b.safetensors --continue=true "https://civitai.com/api/download/models/2178013?type=Model&format=SafeTensor&token=${token}"
+
+aria2c -x16 -s16 -d /workspace/models/loras -o wan2.2_i2v_orgasm_low_14b.safetensors --continue=true "https://civitai.com/api/download/models/2178018?type=Model&format=SafeTensor&token=${token}"
+# trigger words:
+# She is having an orgasm. Her body shudders and shivers as a profound, guttural moan of sexual pleasure escapes her lips, her face a portrait of sublime ecstasy as she reaches the peak of her orgasm.
+
+# WAN 2.2 Oral Insertion
+aria2c -x16 -s16 -d /workspace/models/loras -o wan2.2-i2v-oral-insertion-v1.0.zip --continue=true "https://civitai.com/api/download/models/2121297?type=Model&format=Diffusers&token=${token}"
+# unzipped:
+# wan2.2-i2v-high-oral-insertion-v1.0.safetensors
+# wan2.2-i2v-low-oral-insertion-v1.0.safetensors
+# trigger words:
+# A man appears and she sucks his penis
 ```
