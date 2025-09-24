@@ -21,16 +21,7 @@ aria2c -x16 -s16 -d /workspace/models/loras -o dbc.safetensors --continue=true "
 # trigger words: 
 # dabaichui
 # making dabaichui motion
-# example:  dabaichui，the person holds their head with both hands and twists their waist and hips left and right ，making dabaichui motion
-
-# Hulk transformation:
-aria2c -x16 -s16 -d /workspace/models/loras -o Hulk_epoch35.safetensors --continue=true "https://civitai.com/api/download/models/1588339?type=Model&format=SafeTensor&token=${token}"
-# trigger words: 
-# h01k green hulk transformation
-# examples:
-# The video shows a person looking forward. Slowly, the h01k green hulk transformation begins. Their muscles start to swell, veins bulge beneath their skin, and their face tightens with strain. Their skin gradually shifts to green as their body continues to grow. Their clothes begin to tear apart under the pressure. The transformation completes as the Hulk emerges, standing tall and roaring.
-# The video shows an Asian man looking forward. Slowly, the h01k green hulk transformation begins. His muscles start to swell, veins bulge beneath his skin, and his face tightens with strain. His skin gradually shifts to green as his body continues to grow. His clothes begin to tear apart under the pressure. The transformation completes as the Hulk emerges, standing tall and roaring.
-# The video shows an elderly man looking forward. Slowly, the h01k green hulk transformation begins. His muscles start to swell, veins bulge beneath his skin, and his face tightens with strain. His skin gradually shifts to green as his body continues to grow. His clothes begin to tear apart under the pressure. The transformation completes as the Hulk emerges, standing tall and roaring
+# example: dabaichui，the subject holds their head with both hands and twists their waist and hips left and right ，making dabaichui motion
 
 # WAN missionary
 aria2c -x16 -s16 -d /workspace/models/loras -o wan2.2_i2v_highnoise_pov_missionary_v1.0.safetensors --continue=true "https://civitai.com/api/download/models/2098405?type=Model&format=SafeTensor&token=${token}"
@@ -44,8 +35,15 @@ aria2c -x16 -s16 -d /workspace/models/loras -o wan2.2_i2v_lownoise_pov_missionar
 
 # WAN 2.2 sigma face
 aria2c -x16 -s16 -d /workspace/models/loras -o wan2_2_14b_i2v_sigma_000002100_high_noise.safetensors --continue=true "https://civitai.com/api/download/models/2147746?type=Model&format=SafeTensor&token=${token}"
+
+aria2c -x16 -s16 -d /workspace/models/loras -o wan2_2_14b_i2v_sigma_000002100_low_noise.safetensors --continue=true "https://civitai.com/api/download/models/2147745?type=Model&format=SafeTensor&token=${token}"
 # trigger words:
-# ... doing sigma face expression
+# Subject is doing sigma face expression
+
+# CheekPinch Pals LORA V1.0
+aria2c -x16 -s16 -d /workspace/models/loras -o cheekpinch_pals_v1.safetensors --continue=true "https://civitai.green/api/download/models/2159837?type=Model&format=SafeTensor&token=${token}"
+# trigger words:
+# HUPONNL，画面里女人的脸颊被双手手指轻柔拉扯，她的面部表情随动作从平静逐步变为嘟嘟嘴，噘嘴或者微笑等不同状态，展现出趣味互动效果。
 
 # WAN i2v orgasm
 aria2c -x16 -s16 -d /workspace/models/loras -o wan2.2_i2v_orgasm_high_14b.safetensors --continue=true "https://civitai.com/api/download/models/2178013?type=Model&format=SafeTensor&token=${token}"
